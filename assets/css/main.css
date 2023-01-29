@@ -1,0 +1,65 @@
+:root {
+    --theme-color: rgb(254, 253, 255);
+    --nav-color: #23A6F0;
+    --footer-color: #23A6F0;
+    --link-color: #61D838;
+    --date-color: #858A93;
+}
+
+body {
+    background-color: var(--theme-color) !important;
+}
+
+nav {
+    background-color: var(--nav-color);
+}
+
+.navbar-img {
+    width: 40px;
+}
+
+footer {
+    background-color: var(--footer-color);
+    color: var(--theme-color);
+}
+
+#skill .card:hover {
+    opacity: 0.85;
+}
+
+.multiline {
+    white-space: pre-wrap;
+}
+
+.img-container {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 100%;
+}
+
+.img-container img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.clickable-color{
+    color: var(--theme-color);
+}
+
+.date-text{
+    color: var(--date-color);
+    font-weight: 900;
+}
+
+.carousel-control-next,
+.carousel-control-prev , .carousel-indicators {
+    filter: invert(100%);
+}
+/* Set container-fluid Maximum Width */
+@media (min-width: 1920px) {
+    .container-fluid {
+        max-width: 1920px !important;
+    }
+}

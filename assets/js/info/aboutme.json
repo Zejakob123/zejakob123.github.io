@@ -1,9 +1,0 @@
-{
-    "aboutme":{
-        "fname": "Leong",
-        "lname": "Wee Hong",
-        "title": "Software Engineering Student | Web Development | Penultimate Study Year@UNIMAS",
-        "summary": "And this is my <strong>Portfolio</strong>.",
-        "image": "./assets/img/pic_wh.jpg"
-    }
-}

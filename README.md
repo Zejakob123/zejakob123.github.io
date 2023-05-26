@@ -9,7 +9,7 @@ npx create-react-app <app_name>
 cd my-app
 npm start
 - Set up gh-pages: npm install --save gh-pages
-- Add following script to package.json: add "predeploy": "npm run build" and "deploy": "gh-pages -d build" into script
+- Add following script to package.json: add "predeploy": "npm run build" and "deploy": "gh-pages -d build" into script.
     Exp: 
         "scripts": {
             "predeploy": "npm run build",

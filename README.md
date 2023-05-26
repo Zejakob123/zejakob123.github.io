@@ -19,7 +19,7 @@ npm start
             "test": "react-scripts test",
             "eject": "react-scripts eject"
         }
-- Visit https://github.com/<Username>/<Username>.github.io/settings/pages
+- Visit https://github.com/:Username/:Username.github.io/settings/pages
     - set the branch gh-pages with root directory to being built for github page
 - Deploy: npm run deploy
 

@@ -8,32 +8,32 @@
             "responsible": "-UserDashboard\n-Report User\n-User Order Tracking\n-Item Sell Tracking\n-User Profile\n-Item Sale Details", 
             "image": [
                 {
-                    "src": "./assets/img/UniFlea/1.jpg",
+                    "src": "./img/UniFlea/1.jpg",
                     "subject": "",
                     "description": ""
                 },
                 {
-                    "src": "./assets/img/UniFlea/2.jpg",
+                    "src": "./img/UniFlea/2.jpg",
                     "subject": "",
                     "description": ""
                 },
                 {
-                    "src": "./assets/img/UniFlea/3.jpg",
+                    "src": "./img/UniFlea/3.jpg",
                     "subject": "",
                     "description": ""
                 },
                 {
-                    "src": "./assets/img/UniFlea/4.jpg",
+                    "src": "./img/UniFlea/4.jpg",
                     "subject": "",
                     "description": ""
                 },
                 {
-                    "src": "./assets/img/UniFlea/5.jpg",
+                    "src": "./img/UniFlea/5.jpg",
                     "subject": "",
                     "description": ""
                 },
                 {
-                    "src": "./assets/img/UniFlea/6.jpg",
+                    "src": "./img/UniFlea/6.jpg",
                     "subject": "",
                     "description": ""
                 }
@@ -48,27 +48,27 @@
             "responsible": "-Search location\n-Set Record\n-Record History", 
             "image": [
                 {
-                    "src": "./assets/img/MapTest/1.jpg",
+                    "src": "./img/MapTest/1.jpg",
                     "subject": "",
                     "description": ""
                 },
                 {
-                    "src": "./assets/img/MapTest/2.jpg",
+                    "src": "./img/MapTest/2.jpg",
                     "subject": "",
                     "description": ""
                 },
                 {
-                    "src": "./assets/img/MapTest/3.jpg",
+                    "src": "./img/MapTest/3.jpg",
                     "subject": "",
                     "description": ""
                 },
                 {
-                    "src": "./assets/img/MapTest/4.jpg",
+                    "src": "./img/MapTest/4.jpg",
                     "subject": "",
                     "description": ""
                 },
                 {
-                    "src": "./assets/img/MapTest/5.jpg",
+                    "src": "./img/MapTest/5.jpg",
                     "subject": "",
                     "description": ""
                 }

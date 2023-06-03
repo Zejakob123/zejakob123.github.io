@@ -14,7 +14,7 @@ function PaginationButton({ carouselID, numOfImg }){
     return (
         <div className="carousel-indicators">
             { carouselIndBtn.map(index=>{
-                 return <button type="button" data-bs-target={ "#"+carouselID } data-bs-slide-to={index.toString()} aria-label={"Slide "+ index.toString()} aria-current={ index===0 && "true" } className={index === 0 && "active"}></button>
+                 return <button type="button" data-bs-target={ "#"+carouselID } data-bs-slide-to={index.toString()} aria-label={"Slide "+ (index+1).toString()} className={index === 0 && "active"} aria-current={ index===0?"true":"false" } ></button>
                 }) 
             }
         </div>
@@ -26,7 +26,7 @@ function CarouselInner({ imgPaths, carouselID }){
 
     const carouselItems = imgPaths.map((path, index) =>{
         return (
-            <div className={"carousel-item" + " " + (index === 0 && "active")}>
+            <div className={"carousel-item"+(index === 0?" active":"")}>
                 
                 <img className="d-block w-100 img-thumbnail" src={path.src} alt={"img-"+carouselID+"-"+index} />
                 <div className="carousel-caption d-none d-md-block"></div>
@@ -60,7 +60,7 @@ function CarouselControlBtn({carouselID}){
 function Carousel({carouselID, imgPaths}){
     console.log("Carousel:carouselID="+carouselID+";imgPaths="+imgPaths);
     return (
-        <div className="carousel slide" id="carousel-0" data-bs-ride="true">
+        <div className="carousel slide" id={carouselID} data-bs-ride="true">
             <PaginationButton carouselID={carouselID} numOfImg={imgPaths.length} />
             <CarouselInner imgPaths = {imgPaths} carouselID={carouselID}/>
             <CarouselControlBtn carouselID={carouselID} />
@@ -77,10 +77,10 @@ function Description({ projectInfo, index }){
         <div className="card-body">
             <h5 className="card-title d-flex justify-content-center">{ projectInfo.title }</h5>
             <div className="d-flex justify-content-center">
-                <a className="btn btn-primary w-100" data-bs-toggle="collapse" href={oriURL+"#collapse-"+index} role="button" aria-expanded="false" aria-controls={"#collapse-"+index}>
+                <button className="btn btn-primary w-100" data-bs-toggle="collapse" data-bs-target={"#collapse-"+index} type="button" aria-expanded="false" aria-controls={"collapse-"+index}>
                     Description
-                    <i className="fa-sharp fa-solid fa-caret-down px-1"></i>
-                </a>
+                    {/* <i className="fa-sharp fa-solid fa-caret-down px-1"></i> */}
+                </button>
             </div>
             <div className="collapse" id={"collapse-"+index}>
                 <div className="card card-body">

@@ -1,13 +1,16 @@
 # zejakob123.github.io
 ## Leong's Personal Portfolio
 
+Portfolio Web App is built on branch React-js and deployed on branch gh-pages.
+
 ## Easy Guidance:
 - Create React App: 
 npx create-react-app <app_name>
 cd my-app
 npm start
 - Set up gh-pages: npm install --save gh-pages
-- Add following script to package.json: add "predeploy": "npm run build" and "deploy": "gh-pages -d build" into script
+- Add following script to package.json: add "predeploy": "npm run build" and "deploy": "gh-pages -d build" into script.
+
     Exp: 
         "scripts": {
             "predeploy": "npm run build",
@@ -17,7 +20,8 @@ npm start
             "test": "react-scripts test",
             "eject": "react-scripts eject"
         }
-- Visit https://github.com/<Username>/<Username>.github.io/settings/pages
+
+- Visit https://github.com/:Username/:Username.github.io/settings/pages
     - set the branch gh-pages with root directory to being built for github page
 - Deploy: npm run deploy
 

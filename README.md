@@ -39,3 +39,8 @@ Brand icon: https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons
 
 ### File Structure
 React file structure guidance: https://www.xenonstack.com/insights/reactjs-project-structure
+
+### Why npm run deploy is not commit the static file to gh-pages branch?
+Rsc: https://stackoverflow.com/questions/24713112/why-does-my-github-page-not-update-its-content
+- Step 1: CMD: git push origin :gh-pages
+- Step 2: CMD: npm run deploy
